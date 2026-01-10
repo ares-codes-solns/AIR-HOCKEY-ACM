@@ -1,0 +1,21 @@
+# Unity folders
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+
+# Package cache
+[Ll]ibrary/PackageCache/
+
+# IDE files
+.vs/
+.idea/
+*.csproj
+*.sln
+
+# OS junk
+.DS_Store
+Thumbs.db
