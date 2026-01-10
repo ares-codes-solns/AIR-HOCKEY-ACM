@@ -80,6 +80,13 @@ public class GameManager : MonoBehaviour
         if (gameOver)
             return;
 
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            scoreP1++;
+            scoreP2++;
+            UpdateUI();
+        }
+
         if (currentMode == GameMode.Timed)
         {
             currentTime -= Time.deltaTime;
