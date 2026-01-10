@@ -1,4 +1,5 @@
 using UnityEngine;
+using TMPro;
 using UnityEngine.UI;
 using System.Collections;
 
@@ -41,10 +42,10 @@ public class GameManager : MonoBehaviour
     // -----------------------------
     // UI (OPTIONAL – safe if null)
     // -----------------------------
-    public Text scoreTextP1;
-    public Text scoreTextP2;
-    public Text timerText;
-    public Text resultText;
+    public TMP_Text scoreTextP1;
+    public TMP_Text scoreTextP2;
+    public TMP_Text timerText;
+    public TMP_Text resultText;
 
     // -----------------------------
     // GAME STATE
