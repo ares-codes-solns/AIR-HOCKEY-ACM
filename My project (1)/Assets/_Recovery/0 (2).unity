@@ -440,8 +440,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 404887288}
-  - component: {fileID: 404887289}
   - component: {fileID: 404887287}
+  - component: {fileID: 404887289}
   - component: {fileID: 404887286}
   - component: {fileID: 404887285}
   m_Layer: 0
@@ -597,10 +597,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 404887283}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7420fa4fcd00a2e43a1354ded162b115, type: 3}
+  m_Script: {fileID: 11500000, guid: 0c96c9196090f3943ab16bf073a18ef6, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::MousePaddleController
-  speed: 10
+  m_EditorClassIdentifier: Assembly-CSharp::TouchPaddleController
 --- !u!1 &408414098
 GameObject:
   m_ObjectHideFlags: 0
@@ -912,6 +911,7 @@ GameObject:
   - component: {fileID: 648096221}
   - component: {fileID: 648096220}
   - component: {fileID: 648096222}
+  - component: {fileID: 648096225}
   - component: {fileID: 648096224}
   m_Layer: 0
   m_Name: paddle1
@@ -1057,6 +1057,18 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 4
+--- !u!114 &648096225
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 648096219}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c96c9196090f3943ab16bf073a18ef6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TouchPaddleController
 --- !u!1 &1024365326
 GameObject:
   m_ObjectHideFlags: 0
@@ -1239,7 +1251,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fdb303766d6688241921ac560683d29d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GoalTrigger
-  scoringPlayer: 2
 --- !u!1 &1149619766
 GameObject:
   m_ObjectHideFlags: 0
@@ -1331,7 +1342,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fdb303766d6688241921ac560683d29d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GoalTrigger
-  scoringPlayer: 1
 --- !u!1 &1233218609
 GameObject:
   m_ObjectHideFlags: 0
@@ -1737,6 +1747,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1687151353}
+  - component: {fileID: 1687151352}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -1744,6 +1755,18 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &1687151352
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1687151351}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4eee5e70de786414c89fd88fac8bcbb5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GameManager
 --- !u!4 &1687151353
 Transform:
   m_ObjectHideFlags: 0
